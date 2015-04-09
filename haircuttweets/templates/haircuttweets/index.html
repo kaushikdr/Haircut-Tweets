@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+{% if datas %}
+	<div class="col-md-10 col-md-offset-1">
+	<a class="btn btn-default" href="{% url 'haircuttweets:trunc' %}" role="button">Truncate Data</a>
+	<a class="btn btn-default" href="{% url 'haircuttweets:trends' %}" role="button">Get Trends</a>
+	<br/>
+	<br/><br/>
+	<table class="table table-striped">
+		<tr>
+		<th>ID</th>
+		<th>Status</th>
+		<tr>
+		{% for data in datas %}
+			<tr>
+				<td>{{ data.pk }}</td>
+				<td>{{ data.fields.tweets_result }}</td>
+			</tr>
+		{% endfor %}
+	</table>
+	</div>
+
+{% else %}
+	<a class="btn btn-default" href="{% url 'haircuttweets:search' %}" role="button">Get Data</a>
+{% endif %}
+</body>
+</html>

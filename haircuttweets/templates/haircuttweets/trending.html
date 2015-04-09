@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+<div class="col-md-4 col-md-offset-2">
+<table class="table table-striped">
+	<tr>
+		
+		<th>Top 5 Trending Haircut</th>
+		
+	</tr>
+	{% for data in datas %}
+		<tr>
+		<td>{{ data }}</td>
+		<tr>
+	{% endfor %}	
+</table>
+</div>
+
+</body>
+</html>

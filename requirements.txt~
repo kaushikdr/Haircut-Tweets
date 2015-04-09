@@ -1,0 +1,124 @@
+Babel==1.3
+BeautifulSoup==3.2.1
+Django==1.7
+GitPython==0.1.7
+Jinja2==2.5.5
+MySQL-python==1.2.5
+PAM==0.4.2
+Pillow==2.3.0
+PyYAML==3.11
+Pygments==2.0.1
+SimpleCV==1.3
+South==0.8.1
+Sphinx==1.0.7
+Twisted-Core==13.2.0
+Twisted-Web==13.2.0
+adium-theme-ubuntu==0.3.4
+amqp==1.4.6
+anyjson==0.3.3
+apt-xapian-index==0.45
+argcomplete==0.8.4
+argparse==1.2.1
+beautifulsoup4==4.2.1
+billiard==3.3.0.19
+-e git://github.com/jsocol/bleach.git@f9fc1c5e70463d5ca91efaa6f19f82d56ff346d8#egg=bleach-origin/HEAD
+ccsm==0.9.11.2
+cef==0.3
+celery==3.1.17
+certifi==14.05.14
+chardet==2.0.1
+colorama==0.2.5
+command-not-found==0.3
+-e git://github.com/jsocol/commonware.git@b5544185b2d24adc1eb512735990752400ce9cbd#egg=commonware-v0.4.2
+compizconfig-python==0.9.11.2
+cssselect==0.9.1
+debtagshw==0.1
+decorator==3.4.0
+defer==1.0.6
+diff-match-patch==20121119
+dirspec==13.10
+django-browserid==0.7.1
+django-celery==3.1.16
+-e git://github.com/jsocol/django-cronjobs.git@dd56a60a3f63f5080dc0552e14eb891e0fedeaa4#egg=django_cronjobs-master
+django-extensions==1.4.5
+django-import-export==0.2.2
+-e git://github.com/jbalogh/django-mobility@644e0c1c58ce6a57d93043d39f2d3d65236fe04c#egg=django_mobility-dev
+-e git://github.com/fwenzel/django-mozilla-product-details@515d55ddf20688c71b54d77eb157eaee21214859#egg=django_mozilla_product_details-master
+-e git://github.com/jbalogh/django-multidb-router.git@9cf37208368c04f8d1a344816c827e1adbff88a1#egg=django_multidb_router-master
+-e git://github.com/jbalogh/django-nose.git@c60ae6c4e5113b142c8781afb2bf94f15a6d40bd#egg=django_nose-master
+-e git://github.com/mozilla/django-session-csrf.git@f00ad913c62e139d36078e8a7e07dab65a021386#egg=django_session_csrf-master
+-e git://github.com/fwenzel/django-sha2.git@f4519bf0cc9b1dd7a7d78394fa4aec4504bc86e9#egg=django_sha2-0.4
+docker-py==0.5.3
+dockerpty==0.3.2
+docopt==0.6.2
+docutils==0.12
+duplicity==0.6.23
+fig==1.0.1
+flake8==2.2.5
+gunicorn==17.5
+-e git://github.com/mozilla/happyforms.git@729612c2a824a7e8283d416d2084bf506c671e24#egg=happyforms-master
+html5lib==0.999
+httplib2==0.8
+-e git://github.com/jbalogh/jingo.git@fce09043542e71d972cc97d2ae703740741f80d0#egg=jingo-master
+-e git://github.com/jsocol/jingo-minify.git@51c158a18e6c5ff7c6fd030ffa4cba51117893b5#egg=jingo_minify-master
+kombu==3.0.24
+lockfile==0.8
+lxml==3.3.3
+marketplace-env==0.1.7
+mccabe==0.3
+mercurial==2.8.2
+mock==1.0.1
+mongodbforms==0.3
+mongoengine==0.8.7
+mysql==0.0.1
+netifaces==0.10.4
+nltk==3.0.2
+nose==1.0.0
+-e git://github.com/mozilla/nuggets.git@9c4344a802b07d95c0dd6256570a4facddf54784#egg=nuggets-master
+numpy==1.8.2
+oauthlib==0.1.3
+oneconf==0.3.7
+pbr==0.10.7
+pep8==1.5.7
+pexpect==3.1
+piston-mini-client==0.7.5
+py-bcrypt==0.4
+pyOpenSSL==0.13
+pyasn1==0.1.7
+pycrypto==2.6.1
+pycups==1.9.66
+pycurl==7.19.3
+pyflakes==0.8.1
+pygobject==3.12.0
+pymongo==2.7.2
+pyquery==1.2.9
+pyserial==2.6
+pysmbc==1.0.14.1
+python-apt==0.9.3.5ubuntu1
+python-debian==0.1.21-nmu2ubuntu2
+pytz==2014.10
+pyxdg==0.25
+reportlab==3.0
+requests==2.2.1
+rsa==3.1.4
+scipy==0.13.3
+sessioninstaller==0.0.0
+six==1.9.0
+software-center-aptd-plugins==0.0.0
+stevedore==1.1.0
+system-service==0.1.6
+tablib==0.10.0
+-e git://github.com/jbalogh/test-utils.git@e42e031d31ea63d593e47d564545149a0f30b95f#egg=test_utils-master
+texttable==0.8.1
+-e git://github.com/clouserw/tower.git@1df74f9c7c353b9fc76d28a50f511ad452093340#egg=tower-master
+translate-toolkit==1.8.0
+twitter==1.16.0
+unity-lens-photos==1.0
+urllib3==1.7.1
+virtualenv==1.11.4
+virtualenv-clone==0.2.5
+virtualenvwrapper==4.3.2
+websocket-client==0.11.0
+wsgiref==0.1.2
+xdiagnose==3.6.3build2
+zope.interface==4.0.5
