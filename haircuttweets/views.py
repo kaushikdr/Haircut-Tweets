@@ -27,7 +27,9 @@ def index(request):
 
 
 
-
+'''
+this method is used to get 1000 data using twitter api
+'''
 def search(request):
 
 	MY_TWITTER_CREDS = os.path.expanduser('~/.twitter_oauth')
@@ -75,7 +77,9 @@ def search(request):
 
 	#print js
 
-
+'''
+this method is used to get top 5 trending haircut
+'''
 def trends(request):
 
 	output = TweetsSearched.objects.all()
@@ -105,7 +109,9 @@ def trends(request):
 	return render(request, 'haircuttweets/trending.html', context)
 
 
-
+'''
+this method is used to process all the trending haircut
+'''
 def process(status):
 	text_tok = nltk.word_tokenize(status)
 	pos_list = nltk.pos_tag(text_tok)
@@ -140,6 +146,9 @@ def process(status):
 	except:
 		return False
 
+'''
+this method is used to Truncate the database
+'''
 def trunc(request):
 	cursor = connection.cursor()
 	cursor.execute("TRUNCATE TABLE `haircuttweets_tweetssearched`")
